@@ -1,0 +1,176 @@
+:root {
+    --primary-color: #ffffff;
+    --font-white: #ffffff;
+    --font-family-professional: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url('../assets/bg2.jpg');
+    /* Path to your image */
+    background-repeat: no-repeat;
+    /* Options: repeat | repeat-x | repeat-y | no-repeat */
+    background-size: cover;
+    /* Options: auto | cover | contain | 100% 100% (custom size) */
+    background-position: center center;
+    /* Options: top | right | bottom | left | center */
+    background-attachment: fixed;
+    /* Options: scroll | fixed | local */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*color: var(--font-white) !important;*/
+
+}
+
+
+.primary-font {
+    color: var(--font-white);
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: 1.5px solid #ccc;
+    color: var(--primary-color);
+}
+.search-input:focus {
+    background-color: transparent;
+    border: 1.5px solid #ccc;
+    color: var(--primary-color);
+    box-shadow: none;
+    
+}
+.sign-form{
+    width: 70%;
+      
+}
+.form-group{
+    padding: 5px 0px;
+}
+
+.search-input::placeholder {
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Vertical centering */
+    height: 80vh;
+    /* Full viewport height */
+    padding: 0px 40px;
+}
+.form-container-signup {
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Vertical centering */
+    height: 100vh;
+    /* Full viewport height */
+    padding: 0px 40px;
+}
+
+.form-block {
+    width: 80%;
+    height: 70vh;
+    box-shadow: 1px 0px 15px white;
+    border-radius: 9px;
+
+   
+    /* Full viewport height */
+
+    /* 70% of viewport height (responsive) */
+    /* background-image: url('../assets/bg1.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);*/
+}
+
+.text-block {
+
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    height: 70vh;
+    /* Vertical centering */
+}
+
+.icon-text{
+    color: var(--primary-color);
+    padding: 5px 10px;
+}
+
+@media (max-width: 576px) {
+  .text-block {
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    height: auto;
+  }
+
+  .form-block {
+    width: 80%;
+    height: 70vh;
+    box-shadow: 1px 0px 15px white;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+
+}
+.navbar-toggler {
+  border-color: white; /* Optional: white border */
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+}

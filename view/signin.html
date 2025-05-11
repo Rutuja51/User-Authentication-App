@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Sign up Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <!--Get your code at fontawesome.com-->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <!--<a class="navbar-brand primary-font" href="#" >Navbar</a>-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link font-12 font-500 primary-font" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-12 font-500 primary-font" href="#">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link font-12 font-500 primary-font ">Services</a>
+                    </li>
+                    <li class="nav-item font-12 font-500 primary-font">
+                        <a class="nav-link font-12 font-500 primary-font">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control search-input primary-font" type="search" placeholder="Search..."
+                        aria-label="Search" />
+                    <!-- <button class="btn btn-outline-success" type="submit">Contact</button>-->
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-md form-container">
+        <div class="form-block">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-md-10 col-sm-10 text-block">
+                            <div style="padding: 5px;">
+                                <p class="font-20 font-600 primary-font">Auth</p>
+                                <p class="font-18 font-500 primary-font">Welcome !</p>
+                                <p class="font-16 font-400 primary-font">To User Authentication App</p>
+                                <p class="font-12 primary-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Adipisci repellat officia voluptas ad beatae quasi eos quam culpa quas dolorum cum,
+                                    ipsum, est saepe perferendis numquam similique et voluptatibus. Aut.</p>
+                                <div class="social-icons">
+                                    <a href="https://twitter.com/yourprofile" target="_blank" class="social-link"><i
+                                            class="fab fa-twitter icon-text"></i></a>
+                                    <a href="https://github.com/yourprofile" target="_blank" class="social-link"><i
+                                            class="fab fa-github icon-text"></i></a>
+                                    <a href="https://instagram.com/yourprofile" target="_blank" class="social-link"><i
+                                            class="fab fa-instagram icon-text"></i></a>
+                                    <a href="https://facebook.com/yourprofile" target="_blank" class="social-link"><i
+                                            class="fab fa-facebook-f icon-text"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-sm-1"></div>
+                    </div>
+                </div> <!--Left side text box-->
+                <div class="col-md-6 col-sm-12">
+                    <div class="text-block">
+                        <form class="sign-form">
+                            <p class="font-20 font-600 primary-font text-center">Sign In</p>
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="email" class="form-label font-12 font-500 primary-font">Email
+                                    address</label>
+                                <input type="email" class="form-control form-control-sm search-input" id="email"
+                                    placeholder="Enter your email" required>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="form-group">
+                                <label for="password" class="form-label font-12 font-500 primary-font">Password</label>
+                                <input type="password" class="form-control form-control-sm search-input" id="password"
+                                    placeholder="Enter your password" required>
+                            </div>
+
+                            <!-- Remember me and Forgot password -->
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="rememberMe">
+                                        <label class="form-check-label font-10 font-400 primary-font"
+                                            for="rememberMe">Remember me</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 text-end"><a href="forgotpass.html"
+                                        class="text-decoration-none small font-10 font-400 primary-font">Forgot
+                                        password?</a></div>
+                            </div>
+
+
+
+
+                            <!-- Sign In Button -->
+                            <div class="d-grid mb-3">
+                                <button type="submit" class="btn btn-primary btn-lg btn-sm">Sign In</button>
+                            </div>
+
+                            <!-- Sign Up Link -->
+                            <p class="text-center font-12 font-400 primary-font">
+                                Don't have an account? <a href="signup.html" class="text-decoration-none">Sign Up</a>
+                            </p>
+                        </form>
+                    </div>
+
+
+
+                </div><!--Form-->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
